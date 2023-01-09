@@ -1,0 +1,6 @@
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/tevino/tcp-shaker v0.0.0-20220630153628-43820e287162 h1:fVoLfz8hIlgtN10WZwjlPE7jXR8xmV8iTz3q/d0FgSw=
+github.com/tevino/tcp-shaker v0.0.0-20220630153628-43820e287162/go.mod h1:TDNcC6Ns/4k8t1TFzDthrnI9jQdKW9sa3g5yHIm57mM=
+golang.org/x/sys v0.0.0-20191110163157-d32e6e3b99c4 h1:Hynbrlo6LbYI3H1IqXpkVDOcX/3HiPdhVEuyj5a59RM=
+golang.org/x/sys v0.0.0-20191110163157-d32e6e3b99c4/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=

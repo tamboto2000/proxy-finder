@@ -7,7 +7,7 @@ import (
 	"sync"
 )
 
-func FindProxies(count int) ([]Proxy, error) {
+func FindProxies(count int, mode string) ([]Proxy, error) {
 	f, err := os.Create("proxies.txt")
 	if err != nil {
 		return nil, err
@@ -25,7 +25,7 @@ func FindProxies(count int) ([]Proxy, error) {
 		go func(wg *sync.WaitGroup, mx *sync.Mutex) {
 			defer wg.Done()
 
-			prox, err := FindTcpProxy()
+			prox, err := FindTcpProxy(mode)
 			if err != nil {
 				mx.Lock()
 				if resErr == nil {
